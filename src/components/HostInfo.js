@@ -10,7 +10,7 @@ import {
 } from "semantic-ui-react";
 import "../stylesheets/HostInfo.css";
 
-function HostInfo({ hostInfo, onHostUpdate, value, setValue, handleRadioChange, active }) {
+function HostInfo({ hostInfo, onHostUpdate, value, handleRadioChange, active }) {
   // This state is just to show how the dropdown component works.
   // Options have to be formatted in this way (array of objects with keys of: key, text, value)
   // Value has to match the value in the object to render the right text.
@@ -29,16 +29,7 @@ function HostInfo({ hostInfo, onHostUpdate, value, setValue, handleRadioChange, 
     // the 'value' attribute is given via Semantic's Dropdown component.
     // Put a debugger or console.log in here and see what the "value" variable is when you pass in different options.
     // See the Semantic docs for more info: https://react.semantic-ui.com/modules/dropdown/#usage-controlled
-    setValue(value);
-    fetch(`http://localhost:3001/hosts/${hostInfo.id}`, {
-      method: "PATCH",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({...hostInfo, area: value})
-    })
-    .then(r => r.json())
-    .then(data => onHostUpdate(data));
+    onHostUpdate({ value })
   }
 
   return (
@@ -63,7 +54,7 @@ function HostInfo({ hostInfo, onHostUpdate, value, setValue, handleRadioChange, 
               {/* Checked takes a boolean and determines what position the switch is in. Should it always be true? */}
               <Radio
                 onChange={handleRadioChange}
-                label={"Active"}
+                label={active ? "Active" : "Decommissioned"}
                 checked={active}
                 slider
               />
