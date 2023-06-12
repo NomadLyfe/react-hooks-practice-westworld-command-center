@@ -57,7 +57,7 @@
       "active": false,
       "imageUrl": "https://vignette.wikia.nocookie.net/westworld/images/b/b2/Angela_Reunion.jpg/revision/latest/scale-to-width-down/310?cb=20180509174920",
       "gender": "Female",
-      "area": "lowlands",
+      "area": "under_construction",
       "authorized": false
     },
     {
@@ -94,7 +94,7 @@
       "id": 10,
       "firstName": "Clementine",
       "lastName": "Pennyfeather",
-      "active": true,
+      "active": false,
       "imageUrl": "https://vignette.wikia.nocookie.net/westworld/images/4/44/Clementine_The_Riddle_of_the_Sphinx.jpg/revision/latest?cb=20180516165617",
       "gender": "Female",
       "area": "badlands",
@@ -104,50 +104,50 @@
       "id": 11,
       "firstName": "Armistice",
       "lastName": "n/a",
-      "active": true,
+      "active": false,
       "imageUrl": "https://vignette.wikia.nocookie.net/westworld/images/7/78/Armistice_Akane_No_Mai.jpg/revision/latest/scale-to-width-down/310?cb=20180517164314",
       "gender": "Female",
-      "area": "lowlands",
+      "area": "high_plains",
       "authorized": false
     },
     {
       "id": 12,
       "firstName": "Hector",
       "lastName": "Escaton",
-      "active": true,
+      "active": false,
       "imageUrl": "https://vignette.wikia.nocookie.net/westworld/images/7/78/Hector_Journey_Into_Night.jpg/revision/latest/scale-to-width-down/310?cb=20180613183102",
       "gender": "Male",
-      "area": "lowlands",
+      "area": "high_plains",
       "authorized": false
     },
     {
       "id": 13,
       "firstName": "Major",
       "lastName": "Carddock",
-      "active": true,
+      "active": false,
       "imageUrl": "https://vignette.wikia.nocookie.net/westworld/images/3/3b/Major_Craddock_The_Riddle_of_the_Sphinx.jpg/revision/latest?cb=20180511205852",
       "gender": "Male",
-      "area": "pariah",
+      "area": "under_construction",
       "authorized": false
     },
     {
       "id": 14,
       "firstName": "Rebus",
       "lastName": "n/a",
-      "active": true,
+      "active": false,
       "imageUrl": "https://vignette.wikia.nocookie.net/westworld/images/f/fe/203_Rebus.png/revision/latest/scale-to-width-down/310?cb=20180607104216",
       "gender": "Male",
-      "area": "python_pass",
+      "area": "pariah",
       "authorized": false
     },
     {
       "id": 15,
       "firstName": "Musashi",
       "lastName": "n/a",
-      "active": true,
+      "active": false,
       "imageUrl": "https://vignette.wikia.nocookie.net/westworld/images/6/6b/Musashi_Akane_No_Mai.jpg/revision/latest/scale-to-width-down/310?cb=20180520131337",
       "gender": "Male",
-      "area": "badlands",
+      "area": "python_pass",
       "authorized": false
     }
   ],
